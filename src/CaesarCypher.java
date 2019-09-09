@@ -7,6 +7,7 @@ public class CaesarCypher {
 	
 	private static String shiftedAlphabet;
 	
+	//Metodo número 1
 	public CaesarCypher(int key) {
 		this.key = key;
 		String leftSubstring = alphabet.substring(0,key);
